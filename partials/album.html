@@ -1,0 +1,8 @@
+<h2>Albúm selecionado: {{dados.title}}</h2>
+<br>
+
+<ul class="list-group">
+    <li class="list-group-item" ng-repeat="(i, rec) in dados.tracks.data"><a href="javascript:void(null);" ng-click="Select(rec.id)">{{rec.title}}</a></li>
+</ul>
+
+    

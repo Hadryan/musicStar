@@ -1,0 +1,14 @@
+<h2>Artistas do Genêro selecionado</h2>
+<br>
+
+
+<div class="row">
+
+	<div class="col-md-3" ng-class="((i%4==0)?'cleared':'')" ng-repeat="(i, rec) in artistas" style="margin-bottom:10px;">
+	  <center><img class="img-circle img-responsive" src="{{rec.picture}}"></center>
+	  <a href="#/artista/{{rec.id}}">{{rec.name}}</a>
+	</div>
+
+</div>	
+
+    

@@ -1,0 +1,14 @@
+<h2>Rádios</h2>
+<br>
+
+
+<div class="row">
+
+	<div class="col-md-3" ng-class="((i%4==0)?'cleared':'')" ng-repeat="(i, rec) in radios" style="margin-bottom:10px;">
+	  <center><img class="img-circle img-responsive" src="{{rec.picture}}"></center>
+	  <a href="#/radio/{{rec.id}}">{{rec.title}}</a>
+	</div>
+
+</div>	
+
+    
